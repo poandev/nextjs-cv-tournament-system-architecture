@@ -23,11 +23,19 @@ export default function Sidebar() {
 
   const menuItems = [
     { icon: <Flag />, label: "賽事概覽", href: "/dashboard" },
-    { icon: <Calendar />, label: "賽程管理", href: "/tournament/schedule" },
+    {
+      icon: <Calendar />,
+      label: "賽程管理",
+      href: "/dashboard/tournament/schedule",
+    },
     // 比賽管理
-    { icon: <Table />, label: "比賽管理", href: "/tournament/games" },
+    { icon: <Table />, label: "比賽管理", href: "/dashboard/tournament/games" },
     // 裁判總表
-    { icon: <LayoutGrid />, label: "裁判總表", href: "/tournament/referees" },
+    {
+      icon: <LayoutGrid />,
+      label: "裁判總表",
+      href: "/dashboard/tournament/referees",
+    },
   ];
 
   return (

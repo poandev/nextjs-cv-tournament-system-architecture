@@ -64,7 +64,8 @@ const HOME = () => {
               className="mt-6 flex h-20 justify-center text-white bg-[#2CB4B4]/50 hover:bg-[#26a3a3] cursor-pointer px-4 py-2 rounded-md text-lg font-bold items-center w-fit"
               onClick={() => router.push("/dashboard")}
             >
-              <span>點擊跳轉 DEMO Dashboard</span>
+              <span>因保密協議僅能提供簡易DEMO版本以供參考</span>
+              {/* <span>點擊跳轉 DEMO Dashboard</span> */}
             </div>
             <div
               className="mt-6 flex h-20 justify-center text-white bg-[#2CB4B4]/50 hover:bg-[#26a3a3] cursor-pointer px-4 py-2 rounded-md text-lg font-bold items-center w-fit"
@@ -75,7 +76,7 @@ const HOME = () => {
                 className="flex items-center justify-center w-full h-full"
                 target="_blank"
               >
-                <span>點擊跳轉 康凡賽務官方網站</span>
+                <span>康凡賽務官方網站</span>
               </Link>
             </div>
           </div>

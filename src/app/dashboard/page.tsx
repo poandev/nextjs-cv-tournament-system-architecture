@@ -106,7 +106,7 @@ export default function TournamentDashboard() {
                     label: "賽程管理",
                     icon: <ClipboardList />,
                     enabled: true,
-                    href: "/tournament/schedule",
+                    href: "/dashboard/tournament/schedule",
                   },
                   { label: "選手管理", icon: <Users />, enabled: false },
                   { label: "報名管理", icon: <UserCheck />, enabled: false },

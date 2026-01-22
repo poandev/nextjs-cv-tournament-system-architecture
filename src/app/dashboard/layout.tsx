@@ -1,3 +1,4 @@
+import Sidebar from "@/components/Sidebar";
 export default function DashboardLayout({
   children,
 }: {
@@ -10,7 +11,8 @@ export default function DashboardLayout({
         {/* <header className="bg-[#B2E7E7] p-2 px-6 flex justify-between items-center text-sm font-bold text-[#006666]">
           <span>可用點數: $990,579</span>
         </header> */}
-        <div className="">{children}</div>
+        <Sidebar />
+        <div className="flex-1 ml-16">{children}</div>
       </main>
     </div>
   );
